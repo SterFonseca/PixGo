@@ -28,3 +28,6 @@ It does not process real PIX payments and is not a regulated financial product.
 
 ## Status
 Work in progress
+
+## Future Work
+PixGo can evolve into an agent-driven payment layer where user intents (e.g. “pay rent”, “split dinner”, “send allowance”) are executed automatically via stablecoins and local payment rails.
