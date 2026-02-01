@@ -1,25 +1,30 @@
-# PixGo 
+# PixGo
 
-PixGo is a hackathon project built at ETHGlobal.
+PixGo is a hackathon project built at ETHGlobal exploring how stablecoins can be used to simulate PIX-style payments in Brazil.
 
 ## What it does
-PixGo enables instant conversion of stablecoins into PIX payments in Brazil through a simple wallet interface.
+PixGo demonstrates a PIX-like user experience where a user initiates a payment using stablecoins and receives a near-instant confirmation, mimicking local payment rails.
 
 ## Problem
-Global stablecoin users and protocols cannot easily pay Brazilian users or merchants using PIX.
+Global stablecoin users and protocols cannot easily pay Brazilian users or merchants using PIX-like experiences without local banking integrations.
 
 ## Solution
-PixGo bridges stablecoin transfers to PIX rails, enabling near-instant local payments.
+PixGo showcases a proof-of-concept flow that bridges stablecoin transfers with a PIX-style confirmation experience, validating the UX and technical feasibility for local payouts.
 
 ## Scope (Hackathon MVP)
-- One user flow
-- One payment demo
-- One working transaction or mocked confirmation
+- Single user payment flow
+- Stablecoin transfer on-chain
+- Mocked or sandboxed PIX-style confirmation
+- Focus on UX + technical validation, not production readiness
+
+## Disclaimer
+PixGo is a proof-of-concept built for a hackathon.  
+It does not process real PIX payments and is not a regulated financial product.
 
 ## Tech (tentative)
 - Frontend: TBD
 - Blockchain: TBD
-- Payments: PIX (mocked or sandbox)
+- Payments: PIX-style flow (mocked or sandbox)
 
 ## Status
 Work in progress
