@@ -11,6 +11,18 @@ Global stablecoin users and protocols cannot easily pay Brazilian users or merch
 ## Solution
 PixGo showcases a proof-of-concept flow that bridges stablecoin transfers with a PIX-style confirmation experience, validating the UX and technical feasibility for local payouts.
 
+## Architecture Intent (Arc + Circle)
+
+PixGo is designed as a chain-abstracted USDC payout system using Arc as a liquidity coordination layer.
+
+While this hackathon MVP uses mocked or testnet flows, the intended production architecture leverages:
+- Arc as the settlement and liquidity hub
+- Circle Gateway for crosschain USDC routing
+- Circle Wallets for user and app-controlled wallets
+- PIX as the final local payment rail (offchain)
+
+The system treats multiple chains as a single liquidity surface, abstracting crosschain complexity from the end user.
+
 ## Scope (Hackathon MVP)
 - Single user payment flow
 - Stablecoin transfer on-chain
